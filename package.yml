@@ -1,0 +1,19 @@
+name       : python-jsonrpclib
+version    : 0.1.7
+release    : 1
+source     :
+    - https://github.com/joshmarshall/jsonrpclib/archive/v0.1.7.tar.gz : 28355fb625fba393c458a532baa21e6ec063b394a27e5c0abdbc73e6c7e07488
+license    : Apache-2.0
+component  : programming.python
+summary    : This library is an implementation of the JSON-RPC specification.
+description: |
+    This library is an implementation of the JSON-RPC specification. It supports both the original 1.0 specification, as well as the new (proposed) 2.0 spec, which includes batch submission, keyword arguments, etc.
+builddeps  :
+    - pkgconfig(python-2.7)
+    - python-setuptools
+rundeps    :
+    - python-simplejson
+build      : |
+    %python_setup
+install    : |
+    %python_install
