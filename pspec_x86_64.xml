@@ -19,24 +19,32 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib-0.1.7-py3.5.egg-info</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/SimpleJSONRPCServer.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/SimpleJSONRPCServer.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/config.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/history.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/jsonclass.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/jsonrpc.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/threadpool.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/utils.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/config.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/history.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/jsonclass.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/jsonrpc.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/threadpool.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/utils.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib_pelix-0.3.1-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib_pelix-0.3.1-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib_pelix-0.3.1-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib_pelix-0.3.1-py3.5.egg-info/top_level.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
+        <Update release="3">
             <Date>2017-11-02</Date>
-            <Version>0.1.7</Version>
+            <Version>0.3.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
