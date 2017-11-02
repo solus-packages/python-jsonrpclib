@@ -19,24 +19,23 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib-0.1.7-py2.7.egg-info</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/SimpleJSONRPCServer.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/SimpleJSONRPCServer.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/config.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/config.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/history.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/history.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonclass.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonclass.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonrpc.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonrpc.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib-0.1.7-py3.5.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/SimpleJSONRPCServer.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/config.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/history.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/jsonclass.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/__pycache__/jsonrpc.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/config.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/history.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/jsonclass.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/jsonrpclib/jsonrpc.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-13</Date>
+        <Update release="2">
+            <Date>2017-11-02</Date>
             <Version>0.1.7</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
