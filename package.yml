@@ -1,6 +1,6 @@
 name       : python-jsonrpclib
 version    : 0.3.1
-release    : 5
+release    : 6
 source     :
     - https://pypi.python.org/packages/cc/a9/8767fbdaad0e5f53803d5d0e5f5cc778dc1efbabe7f2891e4b95806246b8/jsonrpclib-pelix-0.3.1.tar.gz : 5417b1508d5a50ec64f6e5b88907f111155d52607b218ff3ba9a777afb2e49e3
 license    : Apache-2.0
