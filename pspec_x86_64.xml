@@ -1,44 +1,25 @@
 <PISI>
     <Source>
         <Name>python-jsonrpclib</Name>
+        <Homepage>https://github.com/tcalmant/jsonrpclib</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.python</PartOf>
-        <Summary xml:lang="en">This library is an implementation of the JSON-RPC specification.</Summary>
+        <Summary xml:lang="en">This library is an implementation of the JSON-RPC specification (aka jsonrpclib-pelix)</Summary>
         <Description xml:lang="en">This library is an implementation of the JSON-RPC specification. It supports both the original 1.0 specification, as well as the new (proposed) 2.0 spec, which includes batch submission, keyword arguments, etc.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-jsonrpclib</Name>
-        <Summary xml:lang="en">This library is an implementation of the JSON-RPC specification.</Summary>
+        <Summary xml:lang="en">This library is an implementation of the JSON-RPC specification (aka jsonrpclib-pelix)</Summary>
         <Description xml:lang="en">This library is an implementation of the JSON-RPC specification. It supports both the original 1.0 specification, as well as the new (proposed) 2.0 spec, which includes batch submission, keyword arguments, etc.
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/SimpleJSONRPCServer.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/SimpleJSONRPCServer.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/config.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/config.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/history.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/history.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonclass.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonclass.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonrpc.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/jsonrpc.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/threadpool.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/threadpool.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/utils.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib/utils.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib_pelix-0.3.1-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib_pelix-0.3.1-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib_pelix-0.3.1-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/jsonrpclib_pelix-0.3.1-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/SimpleJSONRPCServer.py</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/__pycache__/SimpleJSONRPCServer.cpython-37.pyc</Path>
@@ -55,19 +36,19 @@
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/jsonrpc.py</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/threadpool.py</Path>
             <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib/utils.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.3.1-py3.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.3.1-py3.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.3.1-py3.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.3.1-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.4.1-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.4.1-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.4.1-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/jsonrpclib_pelix-0.4.1-py3.7.egg-info/top_level.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2020-01-25</Date>
-            <Version>0.3.1</Version>
+        <Update release="7">
+            <Date>2020-06-27</Date>
+            <Version>0.4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

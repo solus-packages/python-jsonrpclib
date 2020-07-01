@@ -1,21 +1,21 @@
 name       : python-jsonrpclib
-version    : 0.3.1
-release    : 6
+version    : 0.4.1
+release    : 7
 source     :
-    - https://pypi.python.org/packages/cc/a9/8767fbdaad0e5f53803d5d0e5f5cc778dc1efbabe7f2891e4b95806246b8/jsonrpclib-pelix-0.3.1.tar.gz : 5417b1508d5a50ec64f6e5b88907f111155d52607b218ff3ba9a777afb2e49e3
+    - https://github.com/tcalmant/jsonrpclib/archive/v0.4.1.tar.gz : 9dad474a2b90c70afe98ba5563781a4724e1c384cf66e43aa31934cae28b9cb0
+homepage   : https://github.com/tcalmant/jsonrpclib
 license    : Apache-2.0
 component  : programming.python
-summary    : This library is an implementation of the JSON-RPC specification.
+summary    : This library is an implementation of the JSON-RPC specification (aka jsonrpclib-pelix)
 description: |
     This library is an implementation of the JSON-RPC specification. It supports both the original 1.0 specification, as well as the new (proposed) 2.0 spec, which includes batch submission, keyword arguments, etc.
 builddeps  :
     - pkgconfig(python3)
-    - python-setuptools
 rundeps    :
     - python-simplejson
 build      : |
-    %python_setup
     %python3_setup
 install    : |
-    %python_install
     %python3_install
+check      : |
+    %python3_test
